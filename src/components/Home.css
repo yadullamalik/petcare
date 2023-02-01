@@ -1,0 +1,91 @@
+.nav {
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav > .logo_div {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #181a27;
+  cursor: pointer;
+}
+.nav > .center_div {
+  display: flex;
+  gap: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #181a27;
+}
+.nav > .center_div > p {
+  cursor: pointer;
+}
+.nav > .right_div > button {
+  background-color: #181a27;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.herocontent_div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main_div {
+  max-width: 500px;
+  padding-left: 30px;
+}
+.title_div {
+  width: 80%;
+}
+.title {
+  font-size: 70px;
+}
+.icon {
+  color: #8c5ec0;
+  font-size: 55px;
+  margin-left: 15px;
+}
+.title + p {
+  font-size: 22px;
+}
+.ourservice_btn {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(60deg, #6680c2, #7c63eb, #8c5ec0, #e0663e);
+  border: none;
+  color: white;
+}
+.ourservice_btn + a {
+  color: black;
+  font-size: 20px;
+  margin-left: 25px;
+}
+.title_div > .flex_div {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+.title_div > .flex_div > .flex_div_desc > h1 {
+  font-size: 40px;
+  margin: 0;
+}
+.title_div > .flex_div > .flex_div_desc > p {
+  color: rgb(90, 89, 89);
+  font-size: 18px;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background-color: #181a27;
+}
+.hero_img_div {
+  width: 50%;
+}
+
